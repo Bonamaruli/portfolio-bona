@@ -1,0 +1,21 @@
+Taruh semua foto Anda di folder "images" ini.
+
+Contoh nama file (tanpa spasi):
+  foto_Bona.jpg      -> foto profil
+  edu-utama.jpg      -> foto besar di Education
+  edu-1.jpg, edu-2.jpg, ...   -> Documentation Gallery
+  exp1-1.jpg, exp1-2.jpg, ... -> Project Gallery di Experience
+  logo-pt.png        -> logo perusahaan di Experience
+
+Lalu tulis di CONFIG (file index.html), misalnya:
+  photo: "images/foto_Bona.jpg",
+  image: "images/edu-utama.jpg",
+  gallery: [
+    "images/edu-1.jpg",
+    "images/edu-2.jpg",
+    "images/edu-3.jpg"
+  ]
+
+Huruf besar/kecil dan ekstensi harus sama persis dengan nama file.
+Kalau path salah, website akan menampilkan kotak kuning "Foto tidak ditemukan".
+File ini boleh dihapus.
